@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpBgfx", "SharpBgfx\SharpBgfx.csproj", "{4DE918D2-89AB-433D-9F22-BE0407FF0E59}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24-NBody", "examples\24-NBody\24-NBody.csproj", "{2BBD11C1-C556-4590-972D-A53ADF5E3570}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-Callback", "examples\07-Callback\07-Callback.csproj", "{EC672F1C-A98C-4E7D-B00A-8FF1D5F41AB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Metaballs", "examples\02-Metaballs\02-Metaballs.csproj", "{04C6B42D-2FC5-4300-8A04-4DA7087DDF7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{EC672F1C-A98C-4E7D-B00A-8FF1D5F41AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC672F1C-A98C-4E7D-B00A-8FF1D5F41AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC672F1C-A98C-4E7D-B00A-8FF1D5F41AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C6B42D-2FC5-4300-8A04-4DA7087DDF7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C6B42D-2FC5-4300-8A04-4DA7087DDF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C6B42D-2FC5-4300-8A04-4DA7087DDF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C6B42D-2FC5-4300-8A04-4DA7087DDF7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,5 +77,6 @@ Global
 		{921FCA6C-C4FB-432C-90F5-2D38E8EEACB4} = {665350FF-68E2-480F-A884-E1DC4F50436E}
 		{2BBD11C1-C556-4590-972D-A53ADF5E3570} = {665350FF-68E2-480F-A884-E1DC4F50436E}
 		{EC672F1C-A98C-4E7D-B00A-8FF1D5F41AB2} = {665350FF-68E2-480F-A884-E1DC4F50436E}
+		{04C6B42D-2FC5-4300-8A04-4DA7087DDF7A} = {665350FF-68E2-480F-A884-E1DC4F50436E}
 	EndGlobalSection
 EndGlobal

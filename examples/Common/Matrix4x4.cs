@@ -117,6 +117,27 @@ namespace Common {
             return result;
         }
 
+        public static Matrix4x4 CreateRotationXY(float x, float y)
+        {
+            var sx = (float)Math.Sin(x);
+            var cx = (float)Math.Cos(x);
+            var sy = (float)Math.Sin(y);
+            var cy = (float)Math.Cos(y);
+
+            var result = Matrix4x4.Identity;
+            result.M11 = cy;
+            result.M13 = sy;
+            result.M21 = sx * sy;
+            result.M22 = cx;
+            result.M23 = -sx * cy;
+            result.M31 = -cx * sy;
+            result.M32 = sx;
+            result.M33 = cx * cy;
+            result.M44 = 1.0f;
+
+            return result;
+        }
+
         public static Matrix4x4 CreateBillboard (Vector3 objectPosition, Vector3 cameraPosition, Vector3 cameraUpVector, Vector3 cameraForwardVector) {
             const float epsilon = 1e-4f;
 
